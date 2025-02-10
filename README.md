@@ -3,12 +3,4 @@ GitHub → Jenkins → Ansible → Rocky Linux 서버로 이어지는 CI/CD 파�
 
 흐름 상세도
 
-+------------+          +------------+          +------------+          +------------+
-|  Developer |  ----->  |  GitHub    |  ----->  |  Jenkins   |  ----->  |  Ansible   |
-+------------+          +------------+          +------------+          +------------+
-                                                                            |
-                                                                            v
-                                                                          +------------+
-                                                                         |  Rocky Linux |
-                                                                         |  (Nginx 서버)|
-                                                                          +------------+
+![image](https://github.com/user-attachments/assets/40d8691c-a7b9-4a37-b6db-7f0732c03e9e)
