@@ -1,15 +1,26 @@
----
-- name: Deploy Nginx using Ansible
+- name: Deploy Nginx on Rocky Linux
   hosts: all
   become: yes
+
   tasks:
     - name: Install Nginx
-      package:
+      dnf:
         name: nginx
         state: present
 
     - name: Start and enable Nginx service
-      service:
+      systemd:
         name: nginx
         state: started
         enabled: yes
+
+    - name: Open HTTP port in firewall
+      firewalld:
+        service: http
+        permanent: yes
+        state: enabled
+      notify: Reload firewalld
+
+  handlers:
+    - name: Reload firewalld
+      command: firewall-cmd --reload
