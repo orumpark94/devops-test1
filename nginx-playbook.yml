@@ -1,5 +1,5 @@
 - name: Deploy Nginx on Rocky Linux
-  hosts: all
+  hosts: 192.168.1.178
   become: yes
 
   tasks:
@@ -14,9 +14,9 @@
         state: started
         enabled: yes
 
-    - name: Open HTTP port in firewall
+    - name: Open HTTPs port in firewall
       firewalld:
-        service: http
+        service: httpS
         permanent: yes
         state: enabled
       notify: Reload firewalld
