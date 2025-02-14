@@ -6,6 +6,7 @@ GitHub → Jenkins → Ansible → Rocky Linux 서버로 이어지는 CI/CD 파�
 
 흐름 상세도
 
-![image](https://github.com/user-attachments/assets/40d8691c-a7b9-4a37-b6db-7f0732c03e9e)
+
+![image](https://github.com/user-attachments/assets/bc274dab-3bdf-4885-814b-08e591046fd9)
 
 
