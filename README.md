@@ -1,8 +1,8 @@
 # Jenkins - Ansible을 이용한 웹서버 자동화 배포
 
 
-#구성 목표 
-GitHub → Jenkins → Ansible → Rocky Linux 서버로 이어지는 CI/CD 파이프라인을 구축
+# 구성 목표 
+GitHub → Jenkins → Ansible → Linux(Nginx 웹서버) 서버로 이어지는 CI/CD 파이프라인을 구축하여 자동 배포가 가능한 시스템을 구성합니다.
 
 
 #구성안
