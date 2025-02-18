@@ -7,7 +7,9 @@ GitHub → Jenkins → Ansible → Linux(Nginx 웹서버) 서버로 이어지는
 
 # 구성 순서도
 
+
 1. GitHub 설정
+
 
 ◐inventory.ini에서 대상 서버의 Ansible 인벤토리 설정
 
@@ -19,7 +21,9 @@ GitHub → Jenkins → Ansible → Linux(Nginx 웹서버) 서버로 이어지는
 
 ◐추가적인 애플리케이션 배포 및 환경 설정 포함
 
+
 2. 서버 연결 및 배포
+
 
 ◐Ansible을 통해 각 서비스 배포 시 SSH 연결 사용
 
@@ -31,11 +35,7 @@ GitHub → Jenkins → Ansible → Linux(Nginx 웹서버) 서버로 이어지는
 
 ◐Nginx 관련 디렉토리 생성 및 권한 설정 포함
 
-결과 검증
-
-웹 서버(Nginx)에 접속하여 애플리케이션이 정상적으로 동작하는지 확인
-
 # 결과
 
-배포하려하였던 192.168.1.178 서버로 웹서버 정상 배포 완료
+CODE DATA Git hub로 push 시 배포하려하였던 192.168.1.178 서버로 웹서버 정상 배포 완료
 ![image](https://github.com/user-attachments/assets/6a3db358-4d8c-4036-914d-c8f5728141cc)
