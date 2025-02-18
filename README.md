@@ -11,7 +11,7 @@ GitHub → Jenkins → Ansible → Linux(Nginx 웹서버) 서버로 이어지는
 1. GitHub 설정
 
 
-◐inventory.ini에서 대상 서버의 Ansible 인벤토리 설정
+◐inventory.ini에서 대상 서버의 Ansible 인벤토리 설정 (192.168.1.171 Ansible 서버)
 
 ◐GitHub에서 코드 변경이 발생하면 Jenkins가 트리거됨
 
@@ -38,4 +38,7 @@ GitHub → Jenkins → Ansible → Linux(Nginx 웹서버) 서버로 이어지는
 # 결과
 
 Git hub로 data 푸쉬시 jenkins에서 변경을 감지하여 192.168.1.178 (배포target) 서버로 웹서버 정상 배포 완료
+
+Code push(my pc) → 192.168.1.171 (Ansible srv) → 192.168.1.178 (Nginx Target srv)
+
 ![image](https://github.com/user-attachments/assets/6a3db358-4d8c-4036-914d-c8f5728141cc)
