@@ -37,5 +37,5 @@ GitHub → Jenkins → Ansible → Linux(Nginx 웹서버) 서버로 이어지는
 
 # 결과
 
-CODE DATA Git hub로 push 시 배포하려하였던 192.168.1.178 서버로 웹서버 정상 배포 완료
+Git hub로 data 푸쉬시 jenkins에서 변경을 감지하여 192.168.1.178 (배포target) 서버로 웹서버 정상 배포 완료
 ![image](https://github.com/user-attachments/assets/6a3db358-4d8c-4036-914d-c8f5728141cc)
