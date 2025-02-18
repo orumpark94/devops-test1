@@ -1,4 +1,5 @@
-# devops-test1
+# Jenkins - Ansible을 이용한 웹서버 자동화 배포
+
 
 #구성 목표 
 GitHub → Jenkins → Ansible → Rocky Linux 서버로 이어지는 CI/CD 파이프라인을 구축
