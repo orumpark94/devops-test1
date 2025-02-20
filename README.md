@@ -11,29 +11,29 @@ GitHub → Jenkins → Ansible → Linux(Nginx 웹서버) 서버로 이어지는
 1. GitHub 설정
 
 
-◐inventory.ini에서 대상 서버의 Ansible 인벤토리 설정 (192.168.1.171 Ansible 서버)
+  inventory.ini에서 대상 서버의 Ansible 인벤토리 설정 (192.168.1.171 Ansible 서버)
 
-◐GitHub에서 코드 변경이 발생하면 Jenkins가 트리거됨
+  GitHub에서 코드 변경이 발생하면 Jenkins가 트리거됨
 
-◐Ansible 플레이북 구성
+  Ansible 플레이북 구성
 
-◐nginx-playbook.yml: Nginx 설치 및 설정
+  nginx-playbook.yml: Nginx 설치 및 설정
 
-◐추가적인 애플리케이션 배포 및 환경 설정 포함
+  추가적인 애플리케이션 배포 및 환경 설정 포함
 
 
 2. 서버 연결 및 배포
 
 
-◐Ansible을 통해 각 서비스 배포 시 SSH 연결 사용
+  Ansible을 통해 각 서비스 배포 시 SSH 연결 사용
 
-◐Ansible 전용 계정(ansible)을 활용하여 원격 서버에 접근
+  Ansible 전용 계정(ansible)을 활용하여 원격 서버에 접근
 
-◐방화벽 및 디렉토리 설정
+  방화벽 및 디렉토리 설정
 
-◐각 서비스에 필요한 방화벽 규칙 추가
+  각 서비스에 필요한 방화벽 규칙 추가
 
-◐Nginx 관련 디렉토리 생성 및 권한 설정 포함
+  Nginx 관련 디렉토리 생성 및 권한 설정 포함
 
 # 결과
 
