@@ -13,7 +13,7 @@ GitHub → Jenkins → Ansible → Linux(Nginx 웹서버) 서버로 이어지는
 
   inventory.ini에서 대상 서버의 Ansible 인벤토리 설정 (192.168.1.171 Ansible 서버)
 
-  GitHub에서 코드 변경이 발생하면 Jenkins가 트리거됨
+  GitHub에서 코드 변경이 발생하면 Jenkins가 트리거됨 (webhook 트리거 사용)
 
   Ansible 플레이북 구성
 
